@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="BillPaymentRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CustomerID" type="xs:string"/>
+        <xs:element name="Amount" type="xs:decimal"/>
+        <xs:element name="BillerCode" type="xs:string"/>
+        <xs:element name="PaymentReference" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
